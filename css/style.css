@@ -1,0 +1,248 @@
+.invoice_page {
+  padding: 0px;
+  background-color: #24275e; }
+
+aside {
+  padding: 0px !important;
+  color: #fff; }
+  aside .aside_header {
+    height: 64px;
+    background-color: #1c1f4a; }
+    aside .aside_header a {
+      color: #fff;
+      font-size: 1.1em;
+      text-decoration: none !important; }
+    aside .aside_header i {
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.4);
+      padding: 10px;
+      opacity: 0.6;
+      border-radius: 50px;
+      margin: 10px 15px 10px 15px;
+      vertical-align: middle;
+      font-size: 1.5em; }
+    aside .aside_header ul {
+      width: 100%;
+      background-color: #1c1f4a; }
+  aside .aside_global a {
+    color: #fff; }
+  aside .aside_global .aside_logo {
+    margin: 30px 0px 20px 0px; }
+  aside .aside_global nav .aside_nav {
+    padding: 0px 0px 0px 0px; }
+    aside .aside_global nav .aside_nav a {
+      border-left: 3px solid #24275e;
+      text-decoration: none;
+      display: block;
+      opacity: 0.7;
+      font-size: 1.1em;
+      padding: 20px 0px 20px 30px;
+      list-style-type: none; }
+      aside .aside_global nav .aside_nav a i {
+        vertical-align: middle;
+        font-size: 1.3em;
+        margin-right: 12px; }
+      aside .aside_global nav .aside_nav a sup {
+        text-align: center;
+        background-color: #ff0000;
+        padding: 2px 5px 2px 3px;
+        border-radius: 3px; }
+    aside .aside_global nav .aside_nav a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+      border-left: 3px solid #ff314f;
+      transition: all 0.6s ease; }
+    aside .aside_global nav .aside_nav .active_item {
+      opacity: 1;
+      background-color: rgba(255, 255, 255, 0.3);
+      border-left: 3px solid #fe314f; }
+  aside .aside_global .aside_bottom {
+    margin-top: 200px; }
+    @media (max-width: 992px) {
+      aside .aside_global .aside_bottom {
+        margin-top: 50px;
+        padding-bottom: 30px; } }
+    aside .aside_global .aside_bottom button {
+      background-color: #fe314f;
+      border: none;
+      border-radius: 5px;
+      width: 80%;
+      font-size: 1.2em;
+      padding: 10px 0px 10px 0px;
+      text-align: center; }
+      @media (max-width: 992px) {
+        aside .aside_global .aside_bottom button {
+          width: 30%; } }
+      @media (max-width: 768px) {
+        aside .aside_global .aside_bottom button {
+          width: 200px; } }
+      aside .aside_global .aside_bottom button i {
+        font-size: 1.2em;
+        margin-right: 5px; }
+    aside .aside_global .aside_bottom button:hover {
+      background-color: #ff212f;
+      transition: all 0.6s ease; }
+    aside .aside_global .aside_bottom p {
+      display: block;
+      opacity: 0.8;
+      margin: 30px 0px 0px 0px; }
+
+main {
+  background-color: #fff;
+  padding: 0px !important; }
+  main .main_header {
+    height: 64px;
+    padding: 14px 0px 13px 0px;
+    font-size: 1.3em;
+    color: #999;
+    border-bottom: 1px solid silver; }
+    main .main_header i {
+      vertical-align: middle;
+      margin: 0px 5px 5px 20px;
+      font-size: 1.7em; }
+  main .main_global p {
+    color: #374cb9;
+    font-weight: bold; }
+  main .main_global h1 {
+    margin: 45px 0px 0px 25px;
+    color: #24275e;
+    font-weight: bold;
+    font-size: 2em; }
+  main .main_global h2 {
+    margin: 45px 0px 10px 25px;
+    color: #24275e;
+    font-weight: bold;
+    font-size: 1.6em; }
+  main .main_global .add_invoice {
+    padding: 30px 0px 10px 0px;
+    margin: 0px 0px 0px 23px;
+    border-top: 1px solid silver; }
+  main .main_global select {
+    color: #999;
+    padding: 5px 0px 5px 0px;
+    margin: 0px 0px 15px 0px;
+    width: 80%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid silver; }
+    @media (max-width: 992px) {
+      main .main_global select {
+        width: 92%; } }
+    @media (max-width: 768px) {
+      main .main_global select {
+        width: 96%; } }
+    main .main_global select option {
+      color: #000; }
+  main .main_global .select_currency {
+    width: 17%; }
+    @media (max-width: 768px) {
+      main .main_global .select_currency {
+        width: 20%; } }
+  main .main_global input {
+    margin: 0px 0px 25px 0px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid silver;
+    width: 80%; }
+    @media (max-width: 992px) {
+      main .main_global input {
+        width: 92%; } }
+    @media (max-width: 768px) {
+      main .main_global input {
+        width: 96%; } }
+  main .main_global .company_name {
+    background-image: url(../img/search.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px;
+    padding: 5px 0px 5px 25px; }
+  main .main_global button {
+    border-radius: 5px;
+    border: none;
+    padding: 3px 15px 3px 15px;
+    color: #fff;
+    background-color: #01a765; }
+    main .main_global button .plus {
+      vertical-align: middle;
+      font-size: 1.5em;
+      margin-right: 5px; }
+    @media (max-width: 768px) {
+      main .main_global button {
+        margin-bottom: 10px;
+        margin-right: 20px;
+        float: left; } }
+  main .main_global button:hover {
+    background-color: #30d837;
+    transition: all 0.6s ease; }
+  main .main_global .cant_find {
+    float: right;
+    margin: 10px 20% 0px 0px; }
+    @media (max-width: 992px) {
+      main .main_global .cant_find {
+        margin-right: 8%; } }
+    @media (max-width: 768px) {
+      main .main_global .cant_find {
+        float: left; } }
+  @media (max-width: 768px) {
+    main .main_global .first_column {
+      padding-bottom: 100px; } }
+  main .main_global .form-group {
+    border-bottom: 1px solid silver;
+    display: inline-block;
+    width: 35%;
+    margin: 0px 10% 30px 0px; }
+    @media (max-width: 992px) {
+      main .main_global .form-group {
+        width: 43%;
+        margin-right: 6%; } }
+    @media (max-width: 768px) {
+      main .main_global .form-group {
+        width: 45%;
+        margin-right: 4%; } }
+    main .main_global .form-group input {
+      margin: 5px 0px 0px 0px;
+      border: none; }
+  main .main_bottom {
+    font-size: 1.1em;
+    border-top: 1px solid silver; }
+    main .main_bottom .btn_save {
+      background-color: #00a867;
+      color: #fff;
+      width: 150px;
+      border: none;
+      border-radius: 5px;
+      padding: 7px 0px 7px 0px;
+      margin: 15px 15px 15px 15px; }
+      main .main_bottom .btn_save i {
+        margin: 0px 0px 0px 5px; }
+    main .main_bottom .btn_save:hover {
+      background-color: #30d837;
+      transition: all 0.6s ease; }
+    main .main_bottom .btn_preview {
+      background-color: transparent;
+      border: 2px solid #00a867;
+      width: 130px;
+      border-radius: 5px;
+      color: #00a867;
+      padding: 5px 0px 5px 0px;
+      margin: 15px 15px 15px 15px; }
+      main .main_bottom .btn_preview i {
+        margin: 0px 5px 0px 0px; }
+    main .main_bottom .btn_preview:hover {
+      color: #30d837;
+      border: 2px solid #30d837;
+      transition: all 0.6s ease; }
+    main .main_bottom .btn_delete {
+      width: 120px;
+      border: 2px solid #999;
+      border-radius: 5px;
+      color: #888;
+      background-color: transparent;
+      padding: 5px 0px 5px 0px;
+      margin: 15px 15px 15px 15px; }
+      main .main_bottom .btn_delete i {
+        margin: 0px 5px 0px 0px; }
+    main .main_bottom .btn_delete:hover {
+      color: #444;
+      border: 2px solid #666;
+      transition: all 0.6s ease; }
+
+/*# sourceMappingURL=style.css.map */

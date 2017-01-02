@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Test</title>
+		<!-- Fonts -->
+		<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+		<!-- Styles -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
+	</head>
+	<body>
+		<div class="container-fluid invoice_page">
+			<aside class="col-md-3">
+				<div class="aside_header">
+					<span class="dropdown">
+    					<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-user-o" aria-hidden="true"></i>AMS Design Services<span class="caret"></span>
+    					<ul class="dropdown-menu">
+    						<li><a href="#">Example</a></li>
+    						<li><a href="#">Example</a></li>
+   						 </ul>
+  					</span>
+				</div>
+				<div class="aside_global">
+					<center>
+				 		<img src="img/officient.png" alt="" class="aside_logo">
+					</center>
+					<nav>
+						<ul class="aside_nav">
+							<li><a href="#"><i class="fa fa-tachometer" aria-hidden="true"></i>Dashboard</a></li>
+							<li><a href="#" class="active_item"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Invoices</a></li>
+							<li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>Orders</a></li>
+							<li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Messages <sup>3</sup> </a></li>
+							<li><a href="#"><i class="fa fa-file-text-o" aria-hidden="true"></i>Documents <sup>3</sup> </a></li>
+							<li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i>Settings</a></li>
+						</ul>
+					</nav>
+					<div class="aside_bottom">
+						<center>
+							<button><i class="fa fa-star-o" aria-hidden="true"></i>Upgrade Pro</button>
+							<p>Officient.dk &copy; 2016</p>
+						</center>
+					</div>
+				</div>
+			</aside>
+			<main class="col-md-9">
+				<div class="main_header">
+					<i class="fa fa-angle-left" aria-hidden="true"></i>
+					<span>Invoices</span>
+				</div>
+				<form>
+				<div class="main_global">
+					<h1>New Invoice</h1>
+					<h2>Add customer and invoice info</h2>
+					<div class="container-fluid add_invoice">
+						<div class="col-sm-6 first_column">
+							<p>Country</p>
+  							<select>
+  								<option>Select Country</option>
+  								<option>Example</option>
+  								<option>Example</option>
+  								<option>Example</option>
+							</select>
+							<p>CVR Number / Company Name</p>
+							<input type="text" placeholder="Search" class="company_name">
+							<button><span class="plus">+</span>Add customer</button>
+							<span class="cant_find">In case you can’t find them</span>
+						</div>
+						<div class="col-sm-6 second_column">
+							<p>Invoice Number</p>
+							<input type="text" placeholder="Place Invoice Number" class="">
+							<div class="form-group">
+								<p>Invoice Date</p>
+    							<div class="input-group date datetimepicker">
+      								<input type="text" />
+     								 <span class="input-group-addon">
+       								 	<i class="fa fa-calendar" aria-hidden="true"></i>
+     								 </span>
+   								 </div>
+ 							 </div>
+							<div class="form-group">
+								<p>Delivery Date</p>
+    							<div class="input-group date datetimepicker">
+      								<input type="text" />
+     								 <span class="input-group-addon">
+       								 	<i class="fa fa-calendar" aria-hidden="true"></i>
+     								 </span>
+   								 </div>
+ 							 </div>
+							<p>Invoice Number</p>
+							<input type="text" placeholder="Place Invoice Number" class="">
+							<p>Order Ref.</p>
+							<input type="text" placeholder="Place Order Ref." class="">
+							<p>Customer Ref.</p>
+							<input type="text" placeholder="Place Customer Ref." class="">
+							<p>Account Number</p>
+							<input type="text" placeholder="Place Account Number" class="">
+							<p>Currency</p>
+  							<select class="select_currency">
+  								<option>USD</option>
+  								<option>Example</option>
+  								<option>Example</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="main_bottom">
+					<button class="btn_save">Save<i class="fa fa-caret-down" aria-hidden="true"></i></button>
+					<button class="btn_preview"><i class="fa fa-lg fa-eye" aria-hidden="true"></i>Preview</button>
+					<button class="btn_delete"><i class="fa fa-lg fa-trash-o" aria-hidden="true"></i>Delete</button>
+				</div>
+				</form>
+			</main>
+		</div>
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script type="text/javascript" src="js/moment-with-locales.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+		
+    	<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+    	<script type="text/javascript">
+    $(function () {
+      $('.datetimepicker').datetimepicker({pickTime: false, language: 'en',minuteStepping:10,defaultDate:"01.01.2016",daysOfWeekDisabled:[0,6]});
+    });
+  </script>
+	</body>
+</html>
